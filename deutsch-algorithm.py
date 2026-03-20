@@ -60,7 +60,7 @@ def deutsch(f): # 🐐🐐
 print(deutsch(lambda x: 0))
 print(deutsch(lambda x: 1))
 
-# Testing Balanced
+
 print(deutsch(lambda x: x))
 print(deutsch(lambda x: 1-x))
 
