@@ -1,4 +1,4 @@
-fom collections import defaultdict, Counter
+from collections import defaultdict, Counter
 import random
 
 def load_data(filename):
