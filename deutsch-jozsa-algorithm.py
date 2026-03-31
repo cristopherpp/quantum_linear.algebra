@@ -64,6 +64,6 @@ def f1(x): return 1
 
 def parity(x): return bin(x).count("1") % 2
 
-print(deutsch_jozsa(f0, 3))
-print(deutsch_jozsa(f1, 3))
-print(deutsch_jozsa(parity, 3))
+print(deutsch_jozsa(f0, 3)) # Constant
+print(deutsch_jozsa(f1, 3)) # Constant
+print(deutsch_jozsa(parity, 3)) # Balanced

@@ -53,8 +53,6 @@ def deutsch(f): # 🐐🐐
     else:
         return "Balanced"
 
-    return
-
 
 #  Testing constant
 print(deutsch(lambda x: 0))
